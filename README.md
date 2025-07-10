@@ -55,3 +55,5 @@ curl -X POST localhost:8000/ask -H "Content-Type: application/json" \
 1. Should we keep the ingest and ask endpoints separate or maybe prepare a single endpoint and see if the candidate sees a room for improvement?
 2. Tightly coupled with Langchain for now - do we want to move some logic out of the LangChain tools?
 3. The pipeline now works properly - we should probably break it in some places to let the candidate fix and show their skills.
+4. We could add more documents for testing.
+5. The prompt in rag.py should be simplified to complete basics so that the candidate shows understanding of prompt engineering.
