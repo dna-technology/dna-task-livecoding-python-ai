@@ -1,11 +1,27 @@
-# Simple RAG – Learning Playground
+# General information
 
-This mini-project demonstrates a ** Retrieval-Augmented-Generation (RAG)** application using modern tooling:
+This is an application template which should be a starting point of implementing simple solution for processing PDF
+files with use of artificial intelligence. It exposes 2 endpoints:
+1. `/ingest` that is supposed to be an input for PDF file processing
+2. `/ask` that is supposed to be an input for user question related to aforementioned file
+
+The template is equipped with some tools to be used in the implementatiod. It's not mandatory though. The intention
+of incorporating these is to focus on the implementation as soon as possible
 
 - [FastAPI](https://fastapi.tiangolo.com) – production-ready HTTP interface
 - [LangChain](https://python.langchain.com) – document loading, chunking, vector store and LLM helpers
 - [OpenAI](https://platform.openai.com) – GPT family models for embedding + generation
 - [FAISS](https://github.com/facebookresearch/faiss) – lightweight vector DB
+
+# Tasks
+
+## Task 1:
+
+Please make a code review of the template
+
+## Task 2:
+
+Add implementation for ingesting PDF file and for client's question processing.
 
 ---
 
